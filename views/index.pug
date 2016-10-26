@@ -1,0 +1,32 @@
+doctype html
+html.no-js(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title Ela's media
+    meta(name='description', content='My book website')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(type="text/css" rel="stylesheet" href='/css/bootstrap.min.css')
+    link(type="text/css" rel="stylesheet" href='/css/main.css')
+  body
+    include navbar.pug
+
+    div.container
+      .row
+        each book in books
+          .col-sm-6.col-md-4
+            .thumbnail
+              a(href="books/" + book.slug)
+                img(src=book.imageUrl)
+              .caption
+                h3= book.title
+                h4 #{book.authorName}
+      .row
+        each movie in movies
+          .col-sm-6.col-md-4
+              .thumbnail
+                a(href="movies/" + movie.slug)
+                  img(src=movie.imageUrl)
+                .caption
+                  h3= movie.title
+                  h4 #{movie.authorName}

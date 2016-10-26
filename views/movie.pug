@@ -1,0 +1,22 @@
+doctype html
+html.no-js(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title= movie.title
+    meta(name='description', content='My movie website')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(type="text/css" rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(type="text/css" rel="stylesheet" href='/css/main.css')
+  body
+    include navbar.pug
+
+    div.container
+      .row
+        .col-sm-6.col-md-4
+          img(class="img-fluid" src=movie.imageUrl)
+        .col-sm-6.col-md-4
+          h3= movie.title
+          h4 by #{movie.directorName}
+          p= movie.description
+          p #{movie.releaseYear}

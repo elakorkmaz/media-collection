@@ -1,0 +1,55 @@
+{
+      "movies": [
+        {
+          "title": "Mistress America",
+          "slug": "movies/mistress-america",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzNzgzNDgzNV5BMl5BanBnXkFtZTgwODcyMjk4NTE@._V1_SY1000_SX675_AL_.jpg",
+          "directorName": "Noah Baumbach",
+          "description": "A story that follows a New York woman (who doesn't really have an apartment), apprentices for a dance company (though she's not really a dancer), and throws herself headlong into her dreams, even as their possibility dwindles.",
+          "releaseYear": "2015"
+        },
+        {
+          "title": "Eyes Wide Shut",
+          "slug": "movies/eyes-wide-shut",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NTUwNjI1N15BMl5BanBnXkFtZTYwOTE1ODc5._V1_.jpg",
+          "directorName": "Stanley Kubrick",
+          "description": "A New York City doctor, who is married to an art curator, pushes himself on a harrowing and dangerous night-long odyssey of sexual and moral discovery after his wife admits that she once almost cheated on him.",
+          "releaseYear": "1999"
+        },
+        {
+          "title": "Lost in Translation",
+          "slug": "movies/lost-in-translation",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_.jpg",
+          "directorName": "Sofia Coppola",
+          "description": "A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo.",
+          "releaseYear": "1999"
+        }]
+
+,
+
+    "books": [
+        {
+          "title": "Harry Potter & the Cursed Child",
+          "slug": "harry-potter-and-the-cursed-child",
+          "imageUrl": "../img/harrypotter.jpg",
+          "authorName": "J.K. Rowling",
+          "description": "A full nineteen years has passed since the climactic finale of Harry Potter and the Deathly Hallows. Voldemort is a shadow of the past; Harry Potter himself is now a burdened employee at the Ministry of Magic, the wizarding triumphs of his youth seemingly shelved for the demands of family life. Once again, the vaulting arches of Kings Cross become the gateway to wild adventure as young Albus Severus Potter â€“ Harryâ€™s now second son â€“ boards a waiting Hogwarts Express, prepared to fulfil his own destinies.",
+          "numberOfPages": "352"
+        },
+        {
+          "title": "Born to Run",
+          "slug": "born-to-run",
+          "imageUrl": "../img/borntorun.jpg",
+          "authorName": "Bruce Springsteen",
+          "description": "In 2009, Bruce Springsteen and the E Street Band performed at the Super Bowlâ€™s halftime show. The experience was so exhilarating that Bruce decided to write about it. Thatâ€™s how this extraordinary autobiography began. Over the past seven years, Bruce Springsteen has privately devoted himself to writing the story of his life, bringing to these pages the same honesty, humour and originality found in his songs.",
+          "numberOfPages": "528"
+        },
+        {
+          "title": "Clover Moon",
+          "slug": "clover-moon",
+          "imageUrl": "../img/clovermoon.jpg",
+          "authorName": "Jacqueline Wilson",
+          "description": "Clover Moonâ€™s imagination is her best escape from a life of hardship in poverty-stricken Victorian London. When tragedy plunges her into a world of grief, Clover realizes that everything she loved about the place she called home is gone. Clover hears of a place she could run to, but where will she find the courage â€“ and the chance â€“ to break free? And could leaving her family be just what she needs to find a place that really feels like home?",
+          "numberOfPages": "400"
+        }]
+}
