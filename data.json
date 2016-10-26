@@ -31,25 +31,25 @@
         {
           "title": "Harry Potter & the Cursed Child",
           "slug": "harry-potter-and-the-cursed-child",
-          "imageUrl": "../img/harrypotter.jpg",
+          "imageUrl": "../img/harry-potter.jpg",
           "authorName": "J.K. Rowling",
           "description": "A full nineteen years has passed since the climactic finale of Harry Potter and the Deathly Hallows. Voldemort is a shadow of the past; Harry Potter himself is now a burdened employee at the Ministry of Magic, the wizarding triumphs of his youth seemingly shelved for the demands of family life. Once again, the vaulting arches of Kings Cross become the gateway to wild adventure as young Albus Severus Potter â€“ Harryâ€™s now second son â€“ boards a waiting Hogwarts Express, prepared to fulfil his own destinies.",
           "numberOfPages": "352"
         },
         {
-          "title": "Born to Run",
-          "slug": "born-to-run",
-          "imageUrl": "../img/borntorun.jpg",
-          "authorName": "Bruce Springsteen",
-          "description": "In 2009, Bruce Springsteen and the E Street Band performed at the Super Bowlâ€™s halftime show. The experience was so exhilarating that Bruce decided to write about it. Thatâ€™s how this extraordinary autobiography began. Over the past seven years, Bruce Springsteen has privately devoted himself to writing the story of his life, bringing to these pages the same honesty, humour and originality found in his songs.",
-          "numberOfPages": "528"
+          "title": "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley",
+          "slug": "chaos-monkeys",
+          "imageUrl": "../img/chaos-monkeys.jpg",
+          "authorName": "Antonio Garcia Martinez",
+          "description": "Imagine a chimpanzee rampaging through a datacenter powering everything from Google to Facebook. Infrastructure engineers use a software version of this “chaos monkey” to test online services’ robustness—their ability to survive random failure and correct mistakes before they actually occur. Tech entrepreneurs are society’s chaos monkeys, disruptors testing and transforming every aspect of our lives, from transportation (Uber) and lodging (AirBnB) to television (Netflix) and dating (Tinder). One of Silicon Valley’s most audacious chaos monkeys is Antonio García Martínez.",
+          "numberOfPages": "533"
         },
         {
-          "title": "Clover Moon",
-          "slug": "clover-moon",
-          "imageUrl": "../img/clovermoon.jpg",
-          "authorName": "Jacqueline Wilson",
-          "description": "Clover Moonâ€™s imagination is her best escape from a life of hardship in poverty-stricken Victorian London. When tragedy plunges her into a world of grief, Clover realizes that everything she loved about the place she called home is gone. Clover hears of a place she could run to, but where will she find the courage â€“ and the chance â€“ to break free? And could leaving her family be just what she needs to find a place that really feels like home?",
-          "numberOfPages": "400"
+          "title": "Outliers: The Story of Success",
+          "slug": "outliers",
+          "imageUrl": "../img/outliers.jpg",
+          "authorName": "Malcolm Gladwell",
+          "description": "In this provocative and inspiring book, Malcolm Gladwell looks at everyone from rock stars to professional athletes, software billionaires to scientific geniuses, to show that the story of success is far more surprising, and far more fascinating, than we could ever have imagined.",
+          "numberOfPages": "300"
         }]
 }

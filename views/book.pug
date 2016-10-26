@@ -6,15 +6,15 @@ html.no-js(lang='en')
     title Ela's bookshelf
     meta(name='description', content='My book website')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(type="text/css" rel="stylesheet" href='public/css/bootstrap.min.css')
-    link(type="text/css" rel="stylesheet" href='public/css/main.css')
+    link(type="text/css" rel="stylesheet" href='/css/bootstrap.min.css')
+    link(type="text/css" rel="stylesheet" href='/css/main.css')
   body
     include navbar.pug
 
     div.container
       .row
         .col-sm-6.col-md-4
-          img(class="img-fluid" src=book.imageUrl)
+          img(class="img-fluid" src=book.imageUrl width="260" height="400")
         .col-sm-6.col-md-4
           h3= book.title
           h4 by #{book.authorName}

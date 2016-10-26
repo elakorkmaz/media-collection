@@ -6,3 +6,8 @@ body {
 a.navbar-brand {
   font-size: 36px;
 }
+
+img {
+  height: 400;
+  width: 260;
+}

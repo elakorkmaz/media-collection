@@ -16,8 +16,8 @@ html.no-js(lang='en')
         each book in books
           .col-sm-6.col-md-4
             .thumbnail
-              a(href="books/" + book.slug)
-                img(src=book.imageUrl)
+              a(href="/books/" + book.slug height)
+                img(src=book.imageUrl width="260" height="400")
               .caption
                 h3= book.title
                 h4 #{book.authorName}
@@ -25,8 +25,8 @@ html.no-js(lang='en')
         each movie in movies
           .col-sm-6.col-md-4
               .thumbnail
-                a(href="movies/" + movie.slug)
-                  img(src=movie.imageUrl)
+                a(href="/movies/" + movie.slug)
+                  img(src=movie.imageUrl width="260" height="400")
                 .caption
                   h3= movie.title
                   h4 #{movie.authorName}
