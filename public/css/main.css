@@ -1,13 +1,19 @@
 body {
   padding-top: 70px;
-  font-family: fantasy;
 }
 
 a.navbar-brand {
   font-size: 36px;
 }
 
-img {
-  height: 400;
-  width: 260;
+
+.caption {
+  text-align: center;
+}
+
+.li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  text-align: center;
 }

@@ -11,22 +11,27 @@ html.no-js(lang='en')
   body
     include navbar.pug
 
-    div.container
-      .row
-        each book in books
-          .col-sm-6.col-md-4
-            .thumbnail
-              a(href="/books/" + book.slug height)
-                img(src=book.imageUrl width="260" height="400")
-              .caption
-                h3= book.title
-                h4 #{book.authorName}
-      .row
-        each movie in movies
-          .col-sm-6.col-md-4
-              .thumbnail
-                a(href="/movies/" + movie.slug)
-                  img(src=movie.imageUrl width="260" height="400")
-                .caption
-                  h3= movie.title
-                  h4 #{movie.authorName}
+    div.container-fluid
+      .row-fluid
+        .ul
+          .span12
+            .row-fluid
+              .span6
+                .li
+                  h2 Books
+                  each book in books
+                        a(href="/books/" + book.slug height)
+                          img(src=book.imageUrl width="260" height="400")
+                        .caption
+                          h3= book.title
+                          h4 #{book.authorName}
+            .row-fluid
+              .span6
+                .li
+                  h2 Movies
+                  each movie in movies
+                        a(href="/movies/" + movie.slug)
+                          img(src=movie.imageUrl width="260" height="400")
+                        .caption
+                          h3= movie.title
+                          h4 #{movie.directorName}
