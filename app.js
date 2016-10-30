@@ -43,7 +43,7 @@ app.get('/books', function(req, res) {
 
 app.get('/books/*', function(req, res) {
   var foundBook = findBook(req.params[0]);
-  res.render('book.pug', { book: foundBook });
+  res.render('books/book.pug', { book: foundBook });
 });
 
 app.get('/movies', function(req, res) {
@@ -53,7 +53,7 @@ app.get('/movies', function(req, res) {
 
 app.get('/movies/*', function(req, res) {
 	var foundMovie = findMovie(req.params[0]);
-	res.render('movie.pug', { movie: foundMovie });
+	res.render('movies/movie.pug', { movie: foundMovie });
 });
 
 app.listen(3001, function() {

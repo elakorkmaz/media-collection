@@ -9,7 +9,11 @@ html.no-js(lang='en')
     link(type="text/css" rel="stylesheet" href='/css/bootstrap.min.css')
     link(type="text/css" rel="stylesheet" href='/css/main.css')
   body
-    include navbar.pug
+    nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(href='/') Ela's media
+
 
     div.container-fluid
       .row-fluid
@@ -20,18 +24,21 @@ html.no-js(lang='en')
                 .li
                   h2 Books
                   each book in books
-                        a(href="/books/" + book.slug height)
-                          img(src=book.imageUrl width="260" height="400")
-                        .caption
-                          h3= book.title
-                          h4 #{book.authorName}
+                    .card
+                      a(href="/books/" + book.slug height)
+                        img.card-img-top(src=book.imageUrl, width="260" height="400")
+                        .card-block
+                      h3.card-title= book.title
+                      h4.card-title= book.authorName
+
             .row-fluid
               .span6
                 .li
                   h2 Movies
                   each movie in movies
-                        a(href="/movies/" + movie.slug)
-                          img(src=movie.imageUrl width="260" height="400")
-                        .caption
-                          h3= movie.title
-                          h4 #{movie.directorName}
+                    .card
+                      a(href="/movies/" + movie.slug height)
+                        img.card-img-top(src=movie.imageUrl, width="260" height="400")
+                        .card-block
+                      h3.card-title= movie.title
+                      h4.card-title= movie.directorName
