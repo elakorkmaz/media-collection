@@ -56,6 +56,40 @@ app.get('/movies/*', function(req, res) {
 	res.render('movies/movie.pug', { movie: foundMovie });
 });
 
+app.get('/search', (request, response) => {
+  response.render('search');
+});
+
+app.post('/search', (request, response) => {
+  console.log(request.body);
+  response.redirect('/search/' + request.body.query);
+});
+
+app.get('/search/*', (req, res) => {
+  var results = searchBooks(req.params[0]);
+  res.render(__dirname + 'search-result.pug', { results: results });
+});
+
 app.listen(3001, function() {
   console.log('Web server is now running on port 3001');
 });
+
+function searchBooks(input) {
+  var results = [];
+
+  for (var i = 0; i < bookData.length; i++) {
+    if (searchTitle(input, bookData[i]) || searchAuthor(input, bookData[i])) {
+      results.push(bookData[i]);
+    }
+  }
+
+  return results;
+}
+
+function searchTitle(input, book) {
+  return book.title.toLowerCase().includes(input.toLowerCase());
+}
+
+function searchAuthor(input, book) {
+  return book.authorName.toLowerCase().includes(input.toLowerCase());
+}

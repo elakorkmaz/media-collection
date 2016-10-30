@@ -6,14 +6,16 @@ html.no-js(lang='en')
     title Ela's media
     meta(name='description', content='My book website')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(type="text/css" rel="stylesheet" href='/css/bootstrap.min.css')
+    link(type="text/css" rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous")
     link(type="text/css" rel="stylesheet" href='/css/main.css')
   body
     nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
       .container-fluid
         .navbar-header
           a.navbar-brand(href='/') Ela's media
-
+          form.form-inline.float-xs-right(action="/search" method="POST")
+            input.form-control(name="query" type='text', placeholder='Search')
+            button.btn.btn-outline-success(type='submit') Search
 
     div.container-fluid
       .row-fluid

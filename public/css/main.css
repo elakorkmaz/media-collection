@@ -1,15 +1,16 @@
 body {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 a.navbar-brand {
   font-size: 36px;
 }
 
-
 .caption {
   text-align: center;
 }
+
+.ul
 
 .li {
   display: inline-block;
